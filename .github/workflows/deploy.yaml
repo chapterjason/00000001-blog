@@ -1,0 +1,21 @@
+name: Deploy
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: ./.github/actions/deployment
+        with:
+          project: blog
+          domain: chapterjason.dev
+          email: ${{ secrets.EMAIL }}
+          git_host: ${{ secrets.GIT_HOST }}
+          git_user: ${{ secrets.GIT_USER }}
+          ssh_host: ${{ secrets.SSH_HOST }}
+          ssh_user: ${{ secrets.SSH_USER }}
+          ssh_key: ${{ secrets.SSH_KEY }}
+          ssh_port: ${{ secrets.SSH_PORT }}

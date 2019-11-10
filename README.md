@@ -14,8 +14,7 @@ I always face the issue that the blog system I installed dont fit into my requir
 - [ ] API-Platform
     - [ ] JSON:API
 - [ ] Frontend
-    - [ ] BlueprintJS
-    - [ ] Bootstrap-Grid
+    - [ ] Bootstrap
 
 ### 0.2.0
 

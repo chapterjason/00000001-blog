@@ -1,0 +1,37 @@
+name: 'Deployment'
+description: 'Deployment container'
+author: 'chapterjason'
+inputs:
+  project:
+    description: "The project name."
+    required: true
+  email:
+    description: "The e-mail that will be used for lets encrypt."
+    required: true
+  domain:
+    description: "The domain that will be used."
+    required: true
+  git_host:
+    description: "The git host.";
+    required: true
+  git_user:
+    description: "The git user."
+    required: true
+  ssh_host:
+    description: "The ssh host."
+    required: true
+  ssh_user:
+    description: "The ssh user."
+    required: true
+  ssh_key:
+    description: "The ssh private key. WARNING: use a secret! Do not pass a plain text value!"
+    required: true
+  ssh_port:
+    description: "The ssh port that will be used."
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'terminal'
+  color: 'blue'
