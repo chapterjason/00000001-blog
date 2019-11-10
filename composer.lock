@@ -80,12 +80,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "c29471b93a163e79674d1928ec996916f509178c"
+                "reference": "2e0f0cca67f88873b296543038883f0624f9bac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/c29471b93a163e79674d1928ec996916f509178c",
-                "reference": "c29471b93a163e79674d1928ec996916f509178c",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/2e0f0cca67f88873b296543038883f0624f9bac4",
+                "reference": "2e0f0cca67f88873b296543038883f0624f9bac4",
                 "shasum": ""
             },
             "require": {
@@ -155,7 +155,7 @@
                 "riak",
                 "xcache"
             ],
-            "time": "2019-08-13T13:45:33+00:00"
+            "time": "2019-11-10T06:40:49+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -1338,12 +1338,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ocramius/PackageVersions.git",
-                "reference": "6e9ddfbbbb1683df71cee3c7751a82edd26f92a1"
+                "reference": "3a7ca6eafde0eec1b964cf967e6e71bf27ecc737"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/6e9ddfbbbb1683df71cee3c7751a82edd26f92a1",
-                "reference": "6e9ddfbbbb1683df71cee3c7751a82edd26f92a1",
+                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/3a7ca6eafde0eec1b964cf967e6e71bf27ecc737",
+                "reference": "3a7ca6eafde0eec1b964cf967e6e71bf27ecc737",
                 "shasum": ""
             },
             "require": {
@@ -1381,7 +1381,7 @@
                 }
             ],
             "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
-            "time": "2019-10-29T22:11:08+00:00"
+            "time": "2019-11-09T22:36:27+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -4546,12 +4546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "9d3d07ae20e19bd20d6c088b71702f8deff1dfa4"
+                "reference": "7e8b84edff56f1def893e2d50eaea989244339b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/9d3d07ae20e19bd20d6c088b71702f8deff1dfa4",
-                "reference": "9d3d07ae20e19bd20d6c088b71702f8deff1dfa4",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/7e8b84edff56f1def893e2d50eaea989244339b5",
+                "reference": "7e8b84edff56f1def893e2d50eaea989244339b5",
                 "shasum": ""
             },
             "require": {
@@ -4611,7 +4611,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "https://symfony.com",
-            "time": "2019-11-09T10:20:37+00:00"
+            "time": "2019-11-09T22:08:03+00:00"
         },
         {
             "name": "symfony/security-csrf",
