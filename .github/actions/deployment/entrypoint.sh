@@ -68,6 +68,7 @@ if [[ "$APP_EXISTS" == *"App does not exist"* ]]; then
     dokku apps:create "$DEPLOYMENT_NAME";
     dokku git:initialize "$DEPLOYMENT_NAME";
     dokku buildpacks:add --index 1 "$DEPLOYMENT_NAME" https://github.com/heroku/heroku-buildpack-php
+    dokku buildpacks:add --index 2 "$DEPLOYMENT_NAME" https://github.com/heroku/heroku-buildpack-nodejs
     dokku config:set "$DEPLOYMENT_NAME" APP_ENV=prod;
     dokku config:set "$DEPLOYMENT_NAME" DOKKU_LETSENCRYPT_EMAIL=$INPUT_EMAIL;
     dokku domains:set "$DEPLOYMENT_NAME" "$DEPLOYMENT_DOMAIN";
