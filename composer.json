@@ -1,4 +1,6 @@
 {
+    "name": "chapterjason/blog",
+    "description": "My blog",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "dev",
