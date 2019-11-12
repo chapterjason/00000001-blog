@@ -11,10 +11,8 @@ I always face the issue that the blog system I installed dont fit into my requir
     - [ ] Login
         - [ ] Username
         - [ ] E-Mail
-- [ ] API-Platform
-    - [ ] JSON:API
-- [ ] Frontend
-    - [ ] Bootstrap
+- [x] Frontend
+    - [x] Bootstrap
 
 ### 0.2.0
 
